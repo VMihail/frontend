@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Кошачье национальное государство. Задать вопрос</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/message.css">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext"
+        rel="stylesheet">
+  <script src="../js/message.js"></script>
+  <script src="../js/header.js"></script>
+  <script src="../js/performance.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="headerInner">
+      <div class="headerLogo">Республика КНГ</div>
+      <nav id="nav" class="nav">
+        <a class="navLink" href="index.html">О стране</a>
+        <a class="navLink" href="history.html">История</a>
+        <a class="navLink" href="message.html">Задать вопрос</a>
+        <a class="navLink" href="citizenship.html">Гражданство</a>
+        <a class="navLink" href="albums.html">Альбомы</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+  <div class="container">
+    <div class="introInner">
+      <h1 class="introTitle">Кошачье национальное государство</h1>
+    </div>
+    <h2>Задать вопрос</h2>
+  </div>
+
+  <div class="container">
+    <section class="questionSection">
+      <form id="senderForm">
+        <label for="senderName">От:</label>
+        <input type="text" id="senderName" required>
+
+        <label for="senderText">Текст вопроса:</label>
+        <textarea id="senderText" required></textarea>
+
+        <button type="submit">Отправить</button>
+      </form>
+
+      <div id="messageContainer">
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="footerContent">
+    <div class="footerLinks">
+      <a class="footerLink" href="#">О стране</a>
+      <a class="footerLink" href="#">История</a>
+      <a class="footerLink" href="#">Контакты</a>
+    </div>
+    <div class="footerCompany">
+      <p>&copy; 2024 - Кошачье национальное государство.</p>
+    </div>
+    <div class="footerPerformance">
+      Время загрузки страницы: <span id="loadTime">0</span> мс
+    </div>
+  </div>
+</footer>
+</body>
+</html>
